@@ -4,13 +4,6 @@ var inquirer = require("inquirer");
 var table = require('console.table');
 var config = require('./keys.js');
 
-var values = [
-  ['max', 20],
-  ['joe', 30]
-];
-console.table(['name', 'age'], values);
-
-
 var connection = mysql.createConnection({
   host: "localhost",
   port: 3306,

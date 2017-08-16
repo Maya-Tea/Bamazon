@@ -119,7 +119,7 @@ function newDepartment() {
             );
 
           } else {
-            addDepartmet();
+            newDepartment();
 
           };
         });
